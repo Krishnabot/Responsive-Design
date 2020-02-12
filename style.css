@@ -4,3 +4,20 @@
     box-sizing: border-box;
 }
 
+.first-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.left-top-nav{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+}
+
+.right-top-nav{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+
+}
