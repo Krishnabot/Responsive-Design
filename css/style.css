@@ -5,15 +5,18 @@
 }
 
 .first-nav{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
     align-items: center;
 }
 
 .left-top-nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border: 2px solid black;
+}
+
+.left-top-nav a{
 }
 
 .right-top-nav{
@@ -24,17 +27,19 @@
 }
 
 .second-nav {
-  display: flex;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3%;
+
   border: 2px solid black;
 }
 
 .second-nav-options {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
-.second-nav-icon {
-  display: flex;
-  justify-content: flex-end;
+.second-nav-icon{
+  display: grid;  
+  border: 2px solid black;
+  justify-content: center;
 }
 
