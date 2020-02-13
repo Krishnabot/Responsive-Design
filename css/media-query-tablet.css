@@ -1,41 +1,49 @@
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 768px) 
+{
     body {
       background-color: lightblue;
     }
-  }
-
-  nav{
-  }
-
+  
   .tablet-nav{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
   }
-
-  .first-nav{
-}
 
 .nav-logo{
+  float: left;
+  display: block;
+  width: 20%;
+  height: 100%;
+
 }
 
-.nav-logo img{
-  /* height: 100px;
-  width: 10%;
-  border: 3px solid black; */
+.fist-nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 .left-top-nav{
     display: flex;
     justify-content: space-evenly;
-    /* border: 2px solid black; */
+    width: 100%;
+    border: 2px solid black;
+}
+
+.center-nav-space {
+  display: none;
 }
 
 .right-top-nav{
     display: none;
-    justify-content: space-evenly;
-    border: 2px solid black;
 
 }
 
+.second-nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  border: 2px solid black;
+}
 
 
+}
