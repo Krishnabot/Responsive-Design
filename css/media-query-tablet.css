@@ -1,0 +1,41 @@
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  nav{
+  }
+
+  .tablet-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .first-nav{
+}
+
+.nav-logo{
+}
+
+.nav-logo img{
+  /* height: 100px;
+  width: 10%;
+  border: 3px solid black; */
+}
+
+.left-top-nav{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+}
+
+.right-top-nav{
+    display: none;
+    justify-content: space-evenly;
+    border: 2px solid black;
+
+}
+
+
+
