@@ -114,18 +114,23 @@ height: 35px;
     padding-top: 5px;
 }
 
-.main-img-left{
+.main-img-left-gradient {
+  background: rgb(189,20,78);
+background: linear-gradient(169deg, rgba(189,20,78,1) 37%, rgba(2,0,29,1) 77%, rgba(0,212,255,1) 100%);
+z-index: 1;
+}
+
+main section .main-img-left{
   border: 2px solid black;
-  background-image: url(/media/Snag_89e6fcb2-796x456.png);
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-8-796x417.jpg);
   background-size: cover;
   background-position: center;
-  
   background-color: cadetblue;
-
   /* float: left; */
   height: 408px;
   min-height: 100px;
   max-height: fit-content;
+  z-index: -2;
 }
 
 .main-right{
