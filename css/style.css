@@ -85,4 +85,28 @@ text-decoration: none;
 
 .yellow-bar{
   padding: 10px 20px;
+  background-color: #FFDD33;
+  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+
+Font-size: 14px;
+
+Font-weight: 400;
+
+Line-height: 21px;
+
+color: rgb(255, 68, 34);
+padding-top: 10px;
+height: 35px;
+
+
+}
+
+.yellow-bar a{
+    text-decoration: none;
+
+
+}
+
+.main-images{
+    display
 }
