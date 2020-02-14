@@ -108,5 +108,38 @@ height: 35px;
 }
 
 .main-images{
-    display
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5px;
+    padding-top: 5px;
+}
+
+.main-img-left{
+  border: 2px solid black;
+  background-image: url(/media/Snag_89e6fcb2-796x456.png);
+  background-size: cover;
+  background-position: center;
+  
+  background-color: cadetblue;
+
+  /* float: left; */
+  height: 408px;
+  min-height: 100px;
+  max-height: fit-content;
+}
+
+.main-right{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 5px;
+}
+
+.main-img-right-top{
+  border: 2px solid black;
+ 
+}
+
+.main-img-right-bottom{
+  border: 2px solid black;
+
 }
