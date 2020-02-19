@@ -355,17 +355,13 @@ padding: 3px;
 
 .funding-nav {
   display: flex;
-  border: 2px solid black;
+  margin: 0 5% 0 5%;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .funding-right {
-  justify-content: flex-end;
-  margin-left: auto;
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-Font-size: 16px;
-Font-weight: 400;
-line-break: 18px;
-color: rgb(255, 0, 0);
+ margin-left: auto;
 }
 
 .funding-right  ul{
@@ -384,19 +380,86 @@ color: rgb(255, 0, 0);
   border: none;
 }
 
+.funding-right li a {
+   justify-content: flex-end;
+  
+  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+Font-size: 16px;
+Font-weight: 400;
+line-break: 18px;
+color: rgb(255, 0, 0); 
+padding-right: 5px;
+}
+
 
 .funding-content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 23px;
-  border: 2px solid black;
+  margin: 0 5% 0 5%;
+}
+.funding-content a {
+  text-decoration: none;
 }
 
-.funding-thumbnails{
-  border: 1px solid black;
+.thumb-nail{
+  display: inline-block;
 }
 
 .thumb-nail img{
   height: 60px;
   width: 60px;
+  margin: 10px;
+  float: left;
+  position: relative;
+  bottom: 35px;
+}
+
+.funding-content .company-name {
+  display: flex;
+  background-color: red;
+  height: 40px;
+}
+
+.company-name h3 {
+  margin-left: 35%;
+  margin-top: 10px;
+  font-family: Avalon, sans-serif;
+Font-size: 18px;
+
+Font-weight: 700;
+
+Line-height: 18px;
+
+color: rgb(255, 255, 255);
+}
+
+
+
+.figures{
+  height: 55px;
+  background-color: #FFEBE8;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+}
+
+.figures .amount {
+Font-size: 18px;
+Font-weight: 700;
+color: rgb(0, 0, 0);
+}
+
+.figures p {
+Font-family: Shentox, sans-serif;
+Font-size: 12px;
+Font-weight: 500;
+Line-height: 18px;
+color: rgb(82, 78, 78);
+}
+
+.information {
+  background-color: #FFFAF8;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-start;
+  border: 1px solid black;
 }
