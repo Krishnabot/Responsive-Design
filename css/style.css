@@ -114,15 +114,14 @@ height: 35px;
     padding-top: 5px;
 }
 
-.main-img-left-gradient {
-  background: rgb(189,20,78);
-background: linear-gradient(169deg, rgba(189,20,78,1) 37%, rgba(2,0,29,1) 77%, rgba(0,212,255,1) 100%);
-z-index: 1;
-}
 
 main section .main-img-left{
+  display: flex;
   border: 2px solid black;
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-8-796x417.jpg);
+
+  background-image: linear-gradient(170deg, red 6%, rgba(0, 0, 0, 0.2) 90%
+  ), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-8-796x417.jpg);
+
   background-size: cover;
   background-position: center;
   background-color: cadetblue;
@@ -130,8 +129,77 @@ main section .main-img-left{
   height: 408px;
   min-height: 100px;
   max-height: fit-content;
-  z-index: -2;
+  /* z-index: -2; */
 }
+
+.banner img{
+  position: relative;
+  bottom: 135px;
+  height: 100px;
+  margin-left: 20px;
+}
+
+#main-img-left-large-text{
+  Font-family: Avalon, sans-serif;
+
+Font-size: 56px;
+
+Font-weight: 700;
+
+Line-height: 56px;
+
+color: rgb(255, 255, 255);
+position: relative;
+top: 220px;
+}
+
+#main-img-left-small-text{
+  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+
+Font-size: 14px;
+
+Font-weight: 400;
+
+Line-height: 21px;
+
+color: rgb(255, 255, 255);
+display: flex;
+justify-content: flex-end;
+margin: 9px;
+}
+
+.main-img-left-credits{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: flex-start;
+  margin-top: 120px;
+}
+
+.main-img-left-credits ul{
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.main-img-left-credits li{
+  padding-right: 10px;
+  padding-left: 5px;
+  text-decoration: none;
+  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+
+Font-size: 13px;
+
+Font-weight: 400;
+
+Line-height: 16px;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.main-img-left-credits li i{
+  padding-right: 5px;
+}
+
 
 .main-right{
   display: grid;
@@ -148,3 +216,4 @@ main section .main-img-left{
   border: 2px solid black;
 
 }
+
