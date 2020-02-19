@@ -208,7 +208,6 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 main section .main-img-right-top{
-  border: 2px solid black;
 
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/cybersecurity1200-796x417.png);
 
@@ -221,7 +220,6 @@ main section .main-img-right-top{
 }
 
 main section .main-img-right-bottom {
-  border: 2px solid black;
 
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Snag_8eedc37-796x468.png);
 
@@ -244,7 +242,8 @@ Line-height: 30px;
 
 color: rgb(255, 255, 255);
 position: relative;
-margin-top: 50px;
+top: 80px;
+padding-left: 15px;
 }
 
 .main-img-right-credits{
@@ -252,7 +251,9 @@ margin-top: 50px;
   list-style: none;
   position: relative;
   justify-content: flex-start;
-  margin-top: 87 px;
+  top: 100px;
+  padding-left: 15px;
+
 }
 
 
@@ -270,4 +271,60 @@ Font-weight: 400;
 Line-height: 5px;
 
 color: rgba(255, 255, 255, 0.6);
+}
+
+#latest-news{
+  Font-family: Avalon, sans-serif;
+
+Font-size: 28px;
+
+Font-weight: 700;
+
+Line-height: 30.8px;
+
+color: red;
+}
+
+.news{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-template-rows: minmax(250px, 250px) 1fr 1fr; */
+  gap: 10px;
+}
+
+
+.news-article{
+  border: 2px solid black;
+min-height: 100px;
+}
+
+.news-article img{
+height: 135px;
+width: 100%;
+}
+
+.news-text{
+  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+
+Font-size: 16px;
+
+Font-weight: 700;
+
+Line-height: 20px;
+
+color: rgb(0, 0, 0);
+padding: 3px;
+}
+
+.news-credits{
+  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+
+Font-size: 13px;
+
+Font-weight: 400;
+
+Line-height: 5px;
+
+color: black;
+padding: 3px;
 }
