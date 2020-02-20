@@ -231,7 +231,7 @@ main section .main-img-right-bottom {
   max-height: fit-content;
 }
 
-#main-img-right-large-text{
+.main-img-right-large-text{
   Font-family: Avalon, sans-serif;
 
 Font-size: 28px;
@@ -241,8 +241,6 @@ Font-weight: 700;
 Line-height: 30px;
 
 color: rgb(255, 255, 255);
-position: relative;
-top: 80px;
 padding-left: 15px;
 }
 
@@ -251,7 +249,6 @@ padding-left: 15px;
   list-style: none;
   position: relative;
   justify-content: flex-start;
-  top: 100px;
   padding-left: 15px;
 
 }
@@ -545,9 +542,6 @@ display: flex;
   margin-right: 10%;
 }
 
-.news-card-left{
-  width: 100%;
-}
 
 .news-card-img {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Photoshop-30-796x418.jpg);
@@ -560,13 +554,15 @@ display: flex;
   max-height: fit-content;
 }
 
-.new-card-article{
-  display: flex;
-  justify-content: start;
+.news-card-article{
+  display:flex;
+  flex-direction: column;
+  position: relative;
+  top: 80px;
 }
 
 .popular{
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+ Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
 Font-size: 14px;
 
@@ -574,7 +570,9 @@ Font-weight: 400;
 
 Line-height: 21px;
 
-color: white;
+color:white;
+  padding-left: 15px;
+
 }
 
 .main-img-right-credits  {
@@ -641,3 +639,24 @@ color: rgb(255, 68, 34);
   object-fit: cover;
   height: 90px;
 }
+
+.news-card-left ul{
+  list-style: none;
+
+}
+ .news-card-left ul li::before{
+   content: "\2022";
+   color: red;
+   font-weight: bold;
+   display: inline-block;
+   margin-right: 0.3em;
+   
+ }
+ .news-card-left ul li {
+   border-bottom: 1px solid ;
+   
+   
+ }
+
+
+  
