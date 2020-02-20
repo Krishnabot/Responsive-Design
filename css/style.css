@@ -287,10 +287,12 @@ Font-weight: 700;
 Line-height: 30.8px;
 
 color: red;
+
+padding: 40px 0 20px 0;
 }
 
 .latest-top {
-margin: 90px 0 30px 5%;
+margin: 90px 0 30px 9%;
 
 }
 
@@ -312,6 +314,7 @@ Line-height: 30.8px;
 
 color: rgb(255, 0, 0);
 text-decoration: none;
+pa
 }
  .latest span {
    margin-left: 4px;
@@ -359,7 +362,7 @@ padding: 3px;
 .funding-nav {
   display: flex;
   margin: 0 10% 0 10%;
-
+align-items: baseline;
   margin-top: 40px;
   margin-bottom: 20px;
 }
@@ -544,21 +547,54 @@ display: flex;
 
 
 .news-card-img {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Photoshop-30-796x418.jpg);
   background-size: cover;
   background-position: center;
   background-color: cadetblue;
   height: 250px;
   width: 100%;
   min-height: 100px;
-  max-height: fit-content;
+  /* max-height: fit-content; */
 }
+
+.img1{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Photoshop-30-796x418.jpg);
+
+}
+
+ .img2{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/header-image-musk-cybertruck-broken-window-796x417.png);
+} 
+
+.img3{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Gmail-search-796x418.png);
+}
+
+.img4{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-796x416.jpg);
+}
+
+.img5{
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F02%2Fbig_survival_base_3.png&signature=98f4b2dbe4e05c41419e545716229fc5);
+}
+
+
+.img6{
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F02%2Fboris-roller-skates.png&signature=f3322f4ed623cc857e49a82e483a56f0);
+}
+
+.img7{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-796x419.jpg);
+}
+
+.img8{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/warzone-796x394.jpg);
+} 
 
 .news-card-article{
   display:flex;
   flex-direction: column;
   position: relative;
-  top: 80px;
+  top: 120px;
 }
 
 .popular{
@@ -605,6 +641,7 @@ color: rgba(255, 255, 255, 0.6);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   padding-left: 5%;
   background-color: #FFF4F2;
 }
@@ -644,6 +681,21 @@ color: rgb(255, 68, 34);
   list-style: none;
 
 }
+
+.news-card-left ul a{
+  text-decoration: none;
+  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+
+Font-size: 13px;
+
+Font-weight: 400;
+
+Line-height: 19.5px;
+
+color: rgb(85, 85, 85);
+}
+
+
  .news-card-left ul li::before{
    content: "\2022";
    color: red;
@@ -653,7 +705,8 @@ color: rgb(255, 68, 34);
    
  }
  .news-card-left ul li {
-   border-bottom: 1px solid ;
+   border-bottom: 1px solid rgb(209, 207, 207);
+   padding: 12px 0 12px 0;
    
    
  }
