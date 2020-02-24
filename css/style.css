@@ -11,9 +11,9 @@ body {
   display: none;
 }
 nav {
-  position: fixed;
   width: 100%;
   top: 0;
+  position: fixed;
 }
 nav .first-nav a {
   color: beige;
@@ -53,6 +53,7 @@ nav .first-nav a:hover {
   grid-template-columns: 3fr 3fr 3%;
   background-color: #fefefe;
   padding: 10px 0 10px 0;
+  
 }
 .second-nav-options {
   margin-left: 20px;
@@ -106,6 +107,7 @@ nav .first-nav a:hover {
   color: rgb(255, 68, 34);
   padding-top: 10px;
   height: 35px;
+  
 }
 
 .yellow-bar a {
@@ -874,4 +876,45 @@ footer {
 .footer-bottom span:last-child img {
   height: 12px;
   width: 70px;
+}
+
+
+@media only screen and (max-width: 770px) {
+
+.tablet-nav-grid{
+}
+
+.first-nav{
+  height:35px;
+}
+
+.left-top-nav a{
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-nav{
+  display: flex;
+}
+
+.second-nav a{
+  display: flex;
+  padding-right: 15px;
+}
+
+  .yellow-bar {
+height: 50px;
+display: flex;
+align-items: center;
+}
+
+.yellow-bar p{
+}
+
+
+.right-top-nav {
+
+  display: none;
+}
+
 }
