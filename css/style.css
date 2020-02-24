@@ -1,11 +1,11 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
- body{
-   padding-top: 70px;
- }
+body {
+  padding-top: 70px;
+}
 
 .logo {
   display: none;
@@ -14,8 +14,6 @@ nav {
   position: fixed;
   width: 100%;
   top: 0;
-
-
 }
 nav .first-nav a {
   color: beige;
@@ -23,57 +21,50 @@ nav .first-nav a {
 }
 
 nav .first-nav a:hover {
- color:white;
+  color: white;
 }
 
-
-.first-nav{
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    align-items: center;
-    background-color: rgb(20, 20, 20);
-    padding-top: 5px;
-    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-    font-size: 13px;
-font-weight: 500;
-line-height: 32px;
-
-
-    
+.first-nav {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  padding-top: 5px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
 }
 
-.left-top-nav{
-    display: flex;
-    justify-content: space-between;
-    margin-left: 20px;
-    
+.left-top-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
 }
 
-.right-top-nav{
-    display: flex;
-    justify-content: space-evenly;
-    border: 2px solid black;
-
+.right-top-nav {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid black;
 }
 
 .second-nav {
   display: grid;
   grid-template-columns: 3fr 3fr 3%;
-  background-color: #FEFEFE;
+  background-color: #fefefe;
   padding: 10px 0 10px 0;
 }
 .second-nav-options {
   margin-left: 20px;
-  
 }
 
 .second-nav a {
   font-family: Shentox, sans-serif;
-font-size: 14px;
-font-weight: 500;
-line-height: 14px;
-color: rgb(61, 58, 58);
-text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  color: rgb(61, 58, 58);
+  text-decoration: none;
 }
 
 .second-nav-options {
@@ -82,65 +73,58 @@ text-decoration: none;
 }
 
 .second-nav-options a {
-color: darkkhaki;
+  color: darkkhaki;
 }
 
 .second-nav-options a:hover {
   color: #131313;
 }
 
-
-.second-nav-icon{
-  display: grid;  
+.second-nav-icon {
+  display: grid;
   justify-content: center;
-  border-left: 1px solid #ECECEC;
+  border-left: 1px solid #ececec;
   margin-right: 5px;
   color: dimgray;
 }
 
-.second-nav-icon:hover{
+.second-nav-icon:hover {
   color: #131313;
 }
 
-
-.yellow-bar{
+.yellow-bar {
   padding: 10px 20px;
-  background-color: #FFDD33;
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  background-color: #ffdd33;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
-Font-size: 14px;
+  font-size: 14px;
 
-Font-weight: 400;
+  font-weight: 400;
 
-Line-height: 21px;
+  line-height: 21px;
 
-color: rgb(255, 68, 34);
-padding-top: 10px;
-height: 35px;
-
-
+  color: rgb(255, 68, 34);
+  padding-top: 10px;
+  height: 35px;
 }
 
-.yellow-bar a{
-    text-decoration: none;
-
-
+.yellow-bar a {
+  text-decoration: none;
 }
 
-.main-images{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 5px;
-    padding-top: 2px;
-    cursor: pointer;
+.main-images {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 5px;
+  padding-top: 2px;
+  cursor: pointer;
 }
 
-
-main section .main-img-left{
+main section .main-img-left {
   display: flex;
 
-  background-image: linear-gradient(170deg, red 6%, rgba(0, 0, 0, 0.2) 90%
-  ), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-8-796x417.jpg);
+  background-image: linear-gradient(170deg, red 6%, rgba(0, 0, 0, 0.2) 90%),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-8-796x417.jpg);
 
   background-size: cover;
   background-position: center;
@@ -152,43 +136,43 @@ main section .main-img-left{
   /* z-index: -2; */
 }
 
-.banner img{
+.banner img {
   position: relative;
   bottom: 135px;
   height: 100px;
   margin-left: 20px;
 }
 
-#main-img-left-large-text{
-  Font-family: Avalon, sans-serif;
+#main-img-left-large-text {
+  font-family: Avalon, sans-serif;
 
-Font-size: 56px;
+  font-size: 56px;
 
-Font-weight: 700;
+  font-weight: 700;
 
-Line-height: 56px;
+  line-height: 56px;
 
-color: rgb(255, 255, 255);
-position: relative;
-top: 220px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 220px;
 }
 
-#main-img-left-small-text{
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+#main-img-left-small-text {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
-Font-size: 14px;
+  font-size: 14px;
 
-Font-weight: 400;
+  font-weight: 400;
 
-Line-height: 21px;
+  line-height: 21px;
 
-color: rgb(255, 255, 255);
-display: flex;
-justify-content: flex-end;
-margin: 9px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: flex-end;
+  margin: 9px;
 }
 
-.main-img-left-credits{
+.main-img-left-credits {
   display: flex;
   list-style: none;
   justify-content: flex-start;
@@ -197,46 +181,41 @@ margin: 9px;
   text-decoration: none;
 }
 
-.main-img-left-credits ul{
+.main-img-left-credits ul {
   text-decoration: none;
 }
 
-
-.main-img-left-credits li{
+.main-img-left-credits li {
   padding-right: 10px;
   padding-left: 5px;
   text-decoration: none;
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
-Font-size: 13px;
+  font-size: 13px;
 
-Font-weight: 400;
+  font-weight: 400;
 
-Line-height: 16px;
+  line-height: 16px;
 
-color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.main-img-left-credits li i{
+.main-img-left-credits li i {
   padding-right: 5px;
 }
 
-.main-img-left-credits li a{
+.main-img-left-credits li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-
 }
 
-
-
-.main-right{
+.main-right {
   display: grid;
   grid-template-rows: 1fr 1fr;
   row-gap: 5px;
 }
 
-main section .main-img-right-top{
-
+main section .main-img-right-top {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/cybersecurity1200-796x417.png);
 
   background-size: cover;
@@ -248,7 +227,6 @@ main section .main-img-right-top{
 }
 
 main section .main-img-right-bottom {
-
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Snag_8eedc37-796x468.png);
 
   background-size: cover;
@@ -259,45 +237,52 @@ main section .main-img-right-bottom {
   max-height: fit-content;
 }
 
-#main-img-right-large-text{
-  Font-family: Avalon, sans-serif;
-
-Font-size: 28px;
-
-Font-weight: 700;
-
-Line-height: 30px;
-
-color: rgb(255, 255, 255);
-padding-left: 15px;
-margin-top: 110px;
+.news2 .news-card-left div .news-card-img .news-card-article {
+  margin-top: 20px;
 }
 
-.main-img-right-credits{
+.text-margin {
+  margin-top: 110px;
+}
+
+.main-img-right-large-text {
+  font-family: Avalon, sans-serif;
+
+  font-size: 28px;
+
+  font-weight: 700;
+
+  line-height: 30px;
+
+  color: rgb(255, 255, 255);
+  padding-left: 15px;
+
+  /* margin-top: 110px; */
+}
+
+.main-img-right-credits {
   display: flex;
   list-style: none;
   position: relative;
   justify-content: flex-start;
   padding-left: 15px;
   padding-top: 10px;
-
+  margin-bottom: 1%;
 }
-
-
 
 .main-img-right-credits li {
   padding-right: 4px;
   padding-left: 2px;
   text-decoration: none;
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
-Font-size: 13px;
+  font-size: 13px;
 
-Font-weight: 400;
+  font-weight: 400;
 
-Line-height: 5px;
+  line-height: 5px;
 
-color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .main-img-right-credits li a {
@@ -305,28 +290,25 @@ color: rgba(255, 255, 255, 0.6);
   color: rgba(255, 255, 255, 0.6);
 }
 
+.latest {
+  font-family: Avalon, sans-serif;
 
-.latest{
- 
-Font-family: Avalon, sans-serif;
+  font-size: 25px;
 
-Font-size: 25px;
+  font-weight: 700;
 
-Font-weight: 700;
+  line-height: 30.8px;
 
-Line-height: 30.8px;
+  color: red;
 
-color: red;
-
-padding: 40px 0 20px 0;
+  padding: 40px 0 20px 0;
 }
 
 .latest-top {
-margin: 90px 0 30px 9%;
-
+  margin: 90px 0 30px 9%;
 }
 
-.news{
+.news {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
@@ -334,115 +316,110 @@ margin: 90px 0 30px 9%;
 }
 
 .latest a {
-  Font-family: Avalon, sans-serif;
+  font-family: Avalon, sans-serif;
 
-Font-size: 28px;
+  font-size: 28px;
 
-Font-weight: 700;
+  font-weight: 700;
 
-Line-height: 30.8px;
+  line-height: 30.8px;
 
-color: rgb(255, 0, 0);
-text-decoration: none;
-
+  color: rgb(255, 0, 0);
+  text-decoration: none;
 }
- .latest span {
-   margin-left: 4px;
- }
+.latest span {
+  margin-left: 4px;
+}
 
 .latest :hover {
   color: black;
 }
 
-.news{
+.news {
   cursor: pointer;
 }
 
-.news-article{
-min-height: 100px;
+.news-article {
+  min-height: 100px;
 }
 
-.news-article img{
-height: 135px;
-width: 100%;
+.news-article img {
+  height: 135px;
+  width: 100%;
 }
 
-.news-text{
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+.news-text {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
-Font-size: 16px;
+  font-size: 16px;
 
-Font-weight: 700;
+  font-weight: 700;
 
-Line-height: 20px;
+  line-height: 20px;
 
-color: rgb(0, 0, 0);
-padding: 3px;
+  color: rgb(0, 0, 0);
+  padding: 3px;
 }
 
-.news-text:hover{
+.news-text:hover {
   color: rgb(255, 0, 0);
-  ;}
+}
 
+.news-credits {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
-.news-credits{
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
 
-Font-size: 13px;
+  font-weight: 400;
 
-Font-weight: 400;
+  line-height: 5px;
 
-Line-height: 5px;
-
-color: black;
-padding: 3px;
+  color: black;
+  padding: 3px;
 }
 
 .funding-nav {
   display: flex;
   margin: 0 10% 0 10%;
-align-items: baseline;
+  align-items: baseline;
   margin-top: 40px;
   margin-bottom: 20px;
 }
 
 .funding-right {
- margin-left: auto;
+  margin-left: auto;
 }
 
-.funding-right a:hover{
+.funding-right a:hover {
   color: #131313;
 }
 
-.funding-right  ul{
+.funding-right ul {
   display: flex;
   list-style: none;
   align-items: center;
 }
 
-.funding-right li{
+.funding-right li {
   border-right: 1px solid rgb(255, 0, 0);
   padding-left: 10px;
-  
 }
 
-.funding-right li:last-child{
+.funding-right li:last-child {
   border: none;
 }
 
 .funding-right li a {
-   justify-content: flex-end;
-  
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-Font-size: 16px;
-Font-weight: 400;
-line-break: 18px;
-color: rgb(255, 0, 0); 
-padding-right: 5px;
-text-decoration: none;
+  justify-content: flex-end;
 
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-break: 18px;
+  color: rgb(255, 0, 0);
+  padding-right: 5px;
+  text-decoration: none;
 }
-
 
 .funding-content {
   display: grid;
@@ -454,12 +431,11 @@ text-decoration: none;
   text-decoration: none;
 }
 
-.thumb-nail{
+.thumb-nail {
   display: inline-block;
-
 }
 
-.thumb-nail img{
+.thumb-nail img {
   height: 60px;
   width: 60px;
   margin: 10px;
@@ -478,106 +454,99 @@ text-decoration: none;
   margin-left: 35%;
   margin-top: 10px;
   font-family: Avalon, sans-serif;
-Font-size: 18px;
+  font-size: 18px;
 
-Font-weight: 700;
+  font-weight: 700;
 
-Line-height: 18px;
+  line-height: 18px;
 
-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
-
-
-.figures{
+.figures {
   height: 55px;
-  background-color: #FFEBE8;
+  background-color: #ffebe8;
   padding: 10.6666666667px 16px 10.6666666667px 84px;
 }
 
 .figures .amount {
-Font-size: 18px;
-Font-weight: 700;
-color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
 }
 
 .figures p {
-Font-family: Shentox, sans-serif;
-Font-size: 12px;
-Font-weight: 500;
-Line-height: 18px;
-color: rgb(82, 78, 78);
+  font-family: Shentox, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  color: rgb(82, 78, 78);
 }
 
 .information {
-  background-color: #FFFAF8;
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  background-color: #fffaf8;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
-Font-size: 13px;
+  font-size: 13px;
 
-font-weight: 400;
+  font-weight: 400;
 
-Line-height: 22px;
+  line-height: 22px;
 
-color: rgb(85, 85, 85);
-border-bottom: 2px solid #FFCCC3;
-
-
+  color: rgb(85, 85, 85);
+  border-bottom: 2px solid #ffccc3;
 }
 
-.information-top{
-display: flex;
-position: relative;
-right: 20%; 
-padding-top: 20px;
+.information-top {
+  display: flex;
+  position: relative;
+  right: 20%;
+  padding-top: 20px;
 }
 
-.information-top i{
+.information-top i {
   position: relative;
   top: 4px;
   right: 4%;
   padding-right: 4%;
 }
 
-.information-bottom{
+.information-bottom {
   display: flex;
-position: relative;
-left: 4%;
-padding-top: 20px;
-padding-bottom: 20px;
-
+  position: relative;
+  left: 4%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.information-bottom i{
+.information-bottom i {
   position: relative;
   top: 4px;
   padding-right: 4%;
-
 }
 
-.bio{
-  background-color: #FFFAF8;
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+.bio {
+  background-color: #fffaf8;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
-  Font-size: 12px;
-  
-  Font-weight: 400;
-  
-  Line-height: 20px;
-  
+  font-size: 12px;
+
+  font-weight: 400;
+
+  line-height: 20px;
+
   color: rgb(85, 85, 85);
   padding-top: 15px;
   padding-bottom: 40px;
-
 }
 
-.bio p{
+.bio p {
   margin-right: 5%;
   margin-left: 5%;
 }
 
-.category{
-display: flex;
+.category {
+  display: flex;
 }
 
 .news2 {
@@ -587,7 +556,6 @@ display: flex;
   margin-left: 10%;
   margin-right: 10%;
 }
-
 
 .news-card-img {
   background-size: cover;
@@ -599,85 +567,78 @@ display: flex;
   /* max-height: fit-content; */
 }
 
-.img1{
+.img1 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Photoshop-30-796x418.jpg);
-
 }
 
- .img2{
+.img2 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/header-image-musk-cybertruck-broken-window-796x417.png);
-} 
+}
 
-.img3{
+.img3 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Gmail-search-796x418.png);
 }
 
-.img4{
+.img4 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-796x416.jpg);
 }
 
-.img5{
+.img5 {
   background-image: url(https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F02%2Fbig_survival_base_3.png&signature=98f4b2dbe4e05c41419e545716229fc5);
 }
 
-
-.img6{
+.img6 {
   background-image: url(https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F02%2Fboris-roller-skates.png&signature=f3322f4ed623cc857e49a82e483a56f0);
 }
 
-.img7{
+.img7 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-796x419.jpg);
 }
 
-.img8{
+.img8 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/warzone-796x394.jpg);
-} 
+}
 
-.news-card-article{
-  display:flex;
+.news-card-article {
+  display: flex;
   flex-direction: column;
   position: relative;
   top: 120px;
 }
 
-.popular{
- Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+.popular {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
-Font-size: 14px;
+  font-size: 14px;
 
-Font-weight: 400;
+  font-weight: 400;
 
-Line-height: 21px;
+  line-height: 21px;
 
-color:white;
+  color: white;
   padding-left: 15px;
-
 }
 
-.main-img-right-credits  {
+.main-img-right-credits p {
   text-decoration: none;
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
-Font-size: 13px;
+  font-size: 13px;
 
-Font-weight: 400;
+  font-weight: 400;
 
-Line-height: 16px;
+  line-height: 16px;
 
-color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 }
 
-
-.main-img-right-credits a{
+.main-img-right-credits a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-
 }
 
-.latest-news-card{
+.latest-news-card {
   display: flex;
-
-
 }
 
 .latest-news-info {
@@ -686,28 +647,28 @@ color: rgba(255, 255, 255, 0.6);
   align-items: flex-start;
   justify-content: center;
   padding-left: 5%;
-  background-color: #FFF4F2;
+  background-color: #fff4f2;
 }
-.latest-news-info p{
-  Font-family: Shentox, sans-serif;
+.latest-news-info p {
+  font-family: Shentox, sans-serif;
 
-Font-size: 13px;
+  font-size: 13px;
 
-Font-weight: 500;
+  font-weight: 500;
 
-Line-height: 19.5px;
+  line-height: 19.5px;
 
- color: rgb(255, 68, 34);
+  color: rgb(255, 68, 34);
 }
 .latest-news-info a {
   text-decoration: none;
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-Font-size: 14px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
 
-Font-weight: 700;
+  font-weight: 700;
 
-Line-height: 17.5px;
-color: rgb(255, 68, 34);
+  line-height: 17.5px;
+  color: rgb(255, 68, 34);
 }
 .latest-news-info a:hover {
   text-decoration: underline;
@@ -720,136 +681,124 @@ color: rgb(255, 68, 34);
   height: 90px;
 }
 
-.news-card-left ul{
+.news-card-left ul {
   list-style: none;
-
 }
 
-.news-card-left ul a{
+.news-card-left ul a {
   text-decoration: none;
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
-Font-size: 13px;
+  font-size: 13px;
 
-Font-weight: 400;
+  font-weight: 400;
 
-Line-height: 19.5px;
+  line-height: 19.5px;
 
-color: rgb(85, 85, 85);
+  color: rgb(85, 85, 85);
 }
 
+.news-card-left ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 0.3em;
+}
+.news-card-left ul li {
+  border-bottom: 1px solid rgb(209, 207, 207);
+  padding: 12px 0 12px 0;
+}
 
- .news-card-left ul li::before{
-   content: "\2022";
-   color: red;
-   font-weight: bold;
-   display: inline-block;
-   margin-right: 0.3em;
-   
- }
- .news-card-left ul li {
-   border-bottom: 1px solid rgb(209, 207, 207);
-   padding: 12px 0 12px 0;
-   
-   
- }
-
-.latest-deals{
+.latest-deals {
   margin: 0 10% 0 10%;
-
 }
 
- .latest-deals-top{
-   display: flex;
-align-items: baseline;
+.latest-deals-top {
+  display: flex;
+  align-items: baseline;
   margin-top: 40px;
   margin-bottom: 20px;
+}
 
- }
+.latest-deals-top :hover {
+  color: black;
+}
 
- .latest-deals-top :hover{
-   color: black;
- }
-
-#see-all-deals:hover{
+#see-all-deals:hover {
   color: #131313;
 }
 
- .latest-deals-top div a 
- {text-decoration:none;
+.latest-deals-top div a {
+  text-decoration: none;
 }
 
+.latest-deals-top div:last-child {
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.latest-deals-top div:last-child a {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-break: 18px;
+  color: rgb(255, 0, 0);
+  padding-right: 5px;
+  text-decoration: none;
+}
 
- .latest-deals-top div:last-child{
-   justify-content: flex-end;
-   margin-left: auto;
- }
- .latest-deals-top  div:last-child a {
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-Font-size: 16px;
-Font-weight: 400;
-line-break: 18px;
-color: rgb(255, 0, 0); 
-padding-right: 5px;
-text-decoration: none;
-   } 
+.latest-deals-down-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  cursor: pointer;
+}
 
-   .latest-deals-down-section{
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr;
-     grid-template-rows: 1fr 1fr;
-     gap: 30px;
-     cursor: pointer;
-
-   }
- 
 .latest-deals-down {
   padding-bottom: 70px;
 }
-.latest-deals-card{
+.latest-deals-card {
   height: 200px;
 }
 
-.latest-deals-card img{
+.latest-deals-card img {
   width: 100%;
   height: 200px;
 }
 
-.latest-deal-upper-text{
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+.latest-deal-upper-text {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
-  Font-size: 16px;
-  
-  Font-weight: 700;
-  
-  Line-height: 20px;
-  
+  font-size: 16px;
+
+  font-weight: 700;
+
+  line-height: 20px;
+
   color: black;
 }
 
-.latest-deal-upper-text:hover{
+.latest-deal-upper-text:hover {
   color: rgb(255, 68, 34);
-
+}
+.line-through {
+  text-decoration: line-through;
 }
 
+.latest-deal-lower-text {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
+  font-family: 16px;
 
-.latest-deal-lower-text{
+  font-weight: 400;
 
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  line-height: 20px;
 
-font-family: 16px;
-
-Font-weight: 400;
-
-Line-height: 20px;
-
-color: rgb(85, 85, 85);
-text-decoration: line-through;
+  color: rgb(85, 85, 85);
 }
 
-
-footer{
+footer {
   margin-top: 90px;
 }
 
@@ -861,7 +810,6 @@ footer{
 .footer-icon {
   display: flex;
   justify-content: center;
-
 }
 .footer-icon div {
   display: flex;
@@ -870,26 +818,18 @@ footer{
   justify-content: center;
   align-items: center;
   background-color: rgb(63, 63, 63);
-  margin:2% 10px 0 0 ;
+  margin: 2% 10px 0 0;
   border-radius: 50%;
-
- 
-
 }
 
 .footer-icon div:hover {
   background-color: #131313;
 }
 
-
-
-.footer-icon div a i  {
+.footer-icon div a i {
   font-size: 20px;
   color: white;
-
 }
-
-
 
 .footer-li ul {
   list-style: none;
@@ -898,44 +838,40 @@ footer{
   align-items: center;
 }
 
- .footer-li ul li {
-   cursor: pointer;
-   margin: 2% 10px 0 0 ;
-   Font-family: Shentox, sans-serif;
+.footer-li ul li {
+  cursor: pointer;
+  margin: 2% 10px 0 0;
+  font-family: Shentox, sans-serif;
 
-Font-size: 13px;
+  font-size: 13px;
 
-Font-weight: 500;
+  font-weight: 500;
 
-Line-height: 24px;
+  line-height: 24px;
 
-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
 
- }
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 45px;
+  cursor: pointer;
+}
 
- .footer-bottom{
-   display: flex;
-   justify-content: center;
-   background-color: rgb(0, 0, 0);
-   color: white;
-   padding-top: 50px;
-   padding-bottom: 45px;
-   cursor: pointer;
- }
+.footer-bottom span:first-child img {
+  height: 10px;
+  width: 45px;
+}
 
- .footer-bottom span:first-child img{
-   height: 10px;
-   width: 45px;
- }
+.heart {
+  color: rgb(255, 0, 0);
+}
 
- .heart{
-   color: rgb(255, 0, 0);
- }
-
- .footer-bottom span:last-child img{
-   height: 12px;
-   width: 70px;
- }
-
-
-  
+.footer-bottom span:last-child img {
+  height: 12px;
+  width: 70px;
+}
