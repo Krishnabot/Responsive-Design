@@ -53,7 +53,6 @@ nav .first-nav a:hover {
   grid-template-columns: 3fr 3fr 3%;
   background-color: #fefefe;
   padding: 10px 0 10px 0;
-  
 }
 .second-nav-options {
   margin-left: 20px;
@@ -107,7 +106,6 @@ nav .first-nav a:hover {
   color: rgb(255, 68, 34);
   padding-top: 10px;
   height: 35px;
-  
 }
 
 .yellow-bar a {
@@ -878,43 +876,96 @@ footer {
   width: 70px;
 }
 
-
 @media only screen and (max-width: 770px) {
+  .tablet-nav-grid {
+  }
 
-.tablet-nav-grid{
-}
+  .first-nav {
+    height: 35px;
+  }
 
-.first-nav{
-  height:35px;
-}
+  .left-top-nav a {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.left-top-nav a{
-  display: flex;
-  justify-content: space-between;
-}
+  .second-nav {
+    display: flex;
+  }
 
-.second-nav{
-  display: flex;
-}
-
-.second-nav a{
-  display: flex;
-  padding-right: 15px;
-}
+  .second-nav a {
+    display: flex;
+    padding-right: 15px;
+  }
 
   .yellow-bar {
-height: 50px;
-display: flex;
-align-items: center;
-}
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
 
-.yellow-bar p{
-}
+  .yellow-bar p {
+  }
 
+  .right-top-nav {
+    display: none;
+  }
 
-.right-top-nav {
+  .main-images {
+    margin: 0 0.5% 0 0.5%;
+  }
 
-  display: none;
-}
+  .latest-top {
+    margin: 20px 2% 0 2%;
+  }
+  .news-tablet {
+    margin: 0 2% 0 2%;
+  }
 
+  .funding-nav {
+    display: block;
+  }
+
+  .funding-right {
+    display: block;
+    padding-left: 0;
+    margin-left: -10px;
+  }
+  .funding-right ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 0 0;
+  }
+  .funding-right ul li {
+    border: none;
+  }
+
+  .funding-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #no-show-funding-content {
+    display: none;
+  }
+
+  .news2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .latest-deals-down-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .latest-deals-card {
+    margin-bottom: 25px;
+  }
+
+  .footer-icon {
+    padding-top: 30px;
+  }
 }
