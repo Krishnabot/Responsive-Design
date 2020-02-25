@@ -1,5 +1,30 @@
-@media only screen and (max-width: 375px) {
-    body {
-      background-color: lightblue;
-    }
+@media only screen and (max-width: 420px) {
+  .first-nav{
+    display: none;
   }
+
+  .second-nav{
+    /* height: 5px; */
+  }
+
+  .second-nav-options{
+    display: none;
+  }
+
+  .second-nav-icon{
+    /* border: 2px solid black; */
+  }
+
+.yellow-bar{
+  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+
+Font-size: 14px;
+
+Font-weight: 400;
+
+Line-height: 21px;
+
+color: rgb(0, 0, 0);
+}
+
+}
