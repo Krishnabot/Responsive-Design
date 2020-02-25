@@ -1,30 +1,29 @@
 @media only screen and (max-width: 420px) {
-  .first-nav{
+  .first-nav {
     display: none;
   }
 
-  .second-nav{
+  .second-nav {
     /* height: 5px; */
   }
 
-  .second-nav-options{
+  .second-nav-options {
     display: none;
   }
 
-  .second-nav-icon{
+  .second-nav-icon {
     /* border: 2px solid black; */
   }
 
-.yellow-bar{
-  Font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  .yellow-bar {
+    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
-Font-size: 14px;
+    font-size: 14px;
 
-Font-weight: 400;
+    font-weight: 400;
 
-Line-height: 21px;
+    line-height: 21px;
 
-color: rgb(0, 0, 0);
-}
-
+    color: rgb(0, 0, 0);
+  }
 }
