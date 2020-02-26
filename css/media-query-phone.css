@@ -85,13 +85,34 @@
     margin-top: 40px;
   }
 
-  /* main-img-left {
-  } */
+  main section .main-img-left {
+    max-height: none;
+  }
+
+#main-img-left-large-text{
+  padding-left: 15px;
+  
+}
+
+.main-img-left-credits {
+  margin-top: 230px;
+  padding-left: 15px;
+}
+
+
+.main-img-right-large-text {
+margin-bottom: 150px;
+}
+
+
 
   main section .main-section-img-height {
     height: 408px;
   }
-
+  
+  .banner{
+    display: none;
+  }
   .news {
     display: grid;
     grid-template-columns: 1fr;
