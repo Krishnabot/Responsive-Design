@@ -1,4 +1,9 @@
 @media only screen and (max-width: 420px) {
+  body {
+    position: absolute;
+    width: 100vh;
+    margin: auto;
+  }
   .first-nav {
     display: none;
   }
@@ -25,5 +30,42 @@
     line-height: 21px;
 
     color: rgb(0, 0, 0);
+  }
+  .main-images {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .news {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .funding-nav {
+    display: block;
+  }
+
+  .funding-right ul {
+    display: block;
+  }
+
+  .funding-right ul li {
+    border: none;
+  }
+
+  .funding-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+
+  .news2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .latest-deals-down-section {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
