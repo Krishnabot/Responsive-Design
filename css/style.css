@@ -11,6 +11,9 @@ body {
 .logo {
   display: none;
 }
+.mobile-nav {
+  display: none;
+}
 nav {
   width: 100%;
   top: 0;
