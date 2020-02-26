@@ -228,7 +228,7 @@ main section .main-img-left {
 }
 
 main section .main-img-right-top {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/cybersecurity1200-796x417.png);
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.158) 0%, rgb(0, 0, 0) 95%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/cybersecurity1200-796x417.png);
 
   background-size: cover;
   background-position: center;
@@ -239,7 +239,7 @@ main section .main-img-right-top {
 }
 
 main section .main-img-right-bottom {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Snag_8eedc37-796x468.png);
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.158) 0%, rgb(0, 0, 0) 95%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Snag_8eedc37-796x468.png);
 
   background-size: cover;
   background-position: center;
@@ -579,36 +579,39 @@ main section .main-img-right-bottom {
   /* max-height: fit-content; */
 }
 
+main section .dark-gradient {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.158) 0%, rgb(0, 0, 0) 95%);}
+
 .img1 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Photoshop-30-796x418.jpg);
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.158) 0%, rgb(0, 0, 0) 95%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Photoshop-30-796x418.jpg);
 }
 
 .img2 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/header-image-musk-cybertruck-broken-window-796x417.png);
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.158) 0%, rgb(0, 0, 0) 95%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/header-image-musk-cybertruck-broken-window-796x417.png);
 }
 
 .img3 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Gmail-search-796x418.png);
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.158) 0%, rgb(0, 0, 0) 95%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Gmail-search-796x418.png);
 }
 
 .img4 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-796x416.jpg);
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.158) 0%, rgb(0, 0, 0) 95%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-796x416.jpg);
 }
 
 .img5 {
-  background-image: url(https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F02%2Fbig_survival_base_3.png&signature=98f4b2dbe4e05c41419e545716229fc5);
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.158) 0%, rgb(0, 0, 0) 95%), url(https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F02%2Fbig_survival_base_3.png&signature=98f4b2dbe4e05c41419e545716229fc5);
 }
 
 .img6 {
-  background-image: url(https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F02%2Fboris-roller-skates.png&signature=f3322f4ed623cc857e49a82e483a56f0);
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.158) 0%, rgb(0, 0, 0) 95%), url(https://img-cdn.tnwcdn.com/image?fit=600%2C336&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F02%2Fboris-roller-skates.png&signature=f3322f4ed623cc857e49a82e483a56f0);
 }
 
 .img7 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-796x419.jpg);
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.158) 0%, rgb(0, 0, 0) 95%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-796x419.jpg);
 }
 
 .img8 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/warzone-796x394.jpg);
+  background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.158) 0%, rgb(0, 0, 0) 95%), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/warzone-796x394.jpg);
 }
 
 .news-card-article {
@@ -899,7 +902,7 @@ footer {
 
 
 
-@media only screen and ( min-width: 600px) and  ( max-width: 770px) {
+@media only screen and ( min-width: 421px) and  ( max-width: 770px) {
   .tablet-nav-grid {
   }
 
