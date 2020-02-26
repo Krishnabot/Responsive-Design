@@ -725,6 +725,11 @@ main section .dark-gradient {
   padding: 12px 0 12px 0;
 }
 
+.deals{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .latest-deals {
   margin: 0 10% 0 10%;
 }
