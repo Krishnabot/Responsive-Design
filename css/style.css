@@ -87,7 +87,8 @@ nav .first-nav a:hover {
 .second-nav-icon {
   display: grid;
   justify-content: center;
-  border-left: 1px solid #ececec;
+  /* border-left: 1px solid #ececec; */
+  /* line-height: 100px; */
   margin-right: 5px;
   color: dimgray;
 }
@@ -158,7 +159,7 @@ main section .main-img-left {
 #main-img-left-large-text {
   font-family: Avalon, sans-serif;
 
-  font-size: 56px;
+  font-size: 40px;
 
   font-weight: 700;
 
@@ -268,8 +269,8 @@ main section .main-img-right-bottom {
 
   color: rgb(255, 255, 255);
   padding-left: 15px;
-
-  /* margin-top: 110px; */
+position: relative;
+top: 110px;
 }
 
 .main-img-right-credits {
@@ -279,7 +280,7 @@ main section .main-img-right-bottom {
   justify-content: flex-start;
   padding-left: 15px;
   padding-top: 10px;
-  margin-bottom: 1%;
+top: 105px;
 }
 
 .main-img-right-credits li {
@@ -292,7 +293,6 @@ main section .main-img-right-bottom {
 
   font-weight: 400;
 
-  line-height: 5px;
 
   color: rgba(255, 255, 255, 0.6);
 }
@@ -300,7 +300,11 @@ main section .main-img-right-bottom {
 .main-img-right-credits li a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+
 }
+
+.main-img-right-credits li i{
+padding-right: 5px;}
 
 .latest {
   font-family: Avalon, sans-serif;
