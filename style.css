@@ -71,10 +71,6 @@ nav .first-nav a:hover {
   z-index: 10;
 }
 
-.second-nav-options {
-  margin-left: 20px;
-}
-
 .second-nav a {
   font-family: Shentox, sans-serif;
   font-size: 14px;
@@ -87,6 +83,7 @@ nav .first-nav a:hover {
 .second-nav-options {
   display: flex;
   justify-content: space-between;
+  margin-left: 20px;
 }
 
 .second-nav-options a {
@@ -341,6 +338,7 @@ main section .main-img-right-bottom {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
   margin: 0 9% 0 9%;
+  cursor: pointer;
 }
 
 .latest a {
@@ -358,10 +356,6 @@ main section .main-img-right-bottom {
 
 .latest :hover {
   color: black;
-}
-
-.news {
-  cursor: pointer;
 }
 
 .news-article {
