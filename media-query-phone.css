@@ -70,7 +70,7 @@
   .news-article-mobile img {
     grid-row-start: 1;
     grid-row-end: last;
-    }
+  }
 
   .mobile-nav div img {
     height: 70px;
