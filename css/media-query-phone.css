@@ -89,18 +89,19 @@
     max-height: none;
   }
 
-  #main-img-left-large-text {
+  .main-img-left-large-text {
     padding-left: 15px;
+    top: 200px;
+    position: relative;
+    margin-left: 2.5%;
   }
 
-
   .main-img-left-credits {
-    margin-top: 230px;
+    margin-top: 210px;
     padding-left: 15px;
   }
 
   .main-img-left-credits li {
-
     font-size: 20px;
     display: inline-block;
   }
@@ -109,57 +110,58 @@
     margin-bottom: 150px;
   }
 
+  .main-img-right-top {
+    margin-top: 7px;
+  }
+
   .top-right-text {
     position: relative;
     top: 260px;
-    Font-family: Avalon, sans-serif;
+    font-family: Avalon, sans-serif;
 
-Font-size: 55px;
+    font-size: 55px;
 
-Font-weight: 700;
+    font-weight: 700;
 
-Line-height: 45px;
+    line-height: 45px;
 
-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
   }
 
-  .right-top-credits{
-top: 120px;
+  .right-top-credits {
+    top: 120px;
   }
 
-  .right-top-credits li{
+  .right-top-credits li {
     display: inline-block;
     font-size: 20px;
-
   }
 
-  .right-top-credits ul li:first-child a{
+  .right-top-credits ul li:first-child a {
     margin-bottom: 80px;
     position: relative;
   }
 
-  .right-bottom-text{
+  .right-bottom-text {
     top: 210px;
     position: relative;
-    Font-family: Avalon, sans-serif;
+    font-family: Avalon, sans-serif;
 
-Font-size: 55px;
+    font-size: 55px;
 
-Font-weight: 700;
+    font-weight: 700;
 
-Line-height: 45px;
+    line-height: 45px;
 
-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
   }
-.right-bottom-credits{
-  top: 70px;
+  .right-bottom-credits {
+    top: 70px;
+  }
 
-}
-
-.right-bottom-credits li{
-  font-size: 20px;}
-
-
+  .right-bottom-credits li {
+    font-size: 20px;
+  }
 
   main section .main-section-img-height {
     height: 408px;
@@ -202,13 +204,13 @@ color: rgb(255, 255, 255);
     flex-wrap: wrap;
     flex-direction: column;
   }
-  
-  .information-top p{
+
+  .information-top p {
     right: 21px;
     position: relative;
   }
 
-  .information-bottom i{
+  .information-bottom i {
     right: 2px;
   }
   .thumb-nail {
