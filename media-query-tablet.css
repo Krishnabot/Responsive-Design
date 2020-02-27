@@ -1,7 +1,4 @@
 @media only screen and (min-width: 421px) and (max-width: 770px) {
-  .tablet-nav-grid {
-  }
-
   .first-nav {
     height: 35px;
   }
@@ -57,27 +54,11 @@
 
   .main-img-right-large-text {
     font-family: Avalon, sans-serif;
-
     font-size: 20px;
-
     font-weight: 700;
-
     line-height: 22px;
-
     color: white;
   }
-
-  /* #main-img-left-large-text{
-    Font-family: Avalon, sans-serif;
-
-Font-size: 40px;
-
-Font-weight: 700;
-
-Line-height: 40px;
-
-color: rgb(255, 255, 255);
-  } */
 
   .banner {
     display: none;
@@ -86,6 +67,7 @@ color: rgb(255, 255, 255);
   .latest-top {
     margin: 20px 2% 0 2%;
   }
+
   .news-tablet {
     margin: 0 2% 0 2%;
     display: grid;
@@ -102,12 +84,14 @@ color: rgb(255, 255, 255);
     padding-left: 0;
     margin-left: -10px;
   }
+
   .funding-right ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 0 0 0 0;
   }
+
   .funding-right ul li {
     border: none;
   }
@@ -116,6 +100,7 @@ color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
   #no-show-funding-content {
     display: none;
   }
@@ -166,13 +151,9 @@ color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-
     font-size: 13px;
-
     font-weight: 400;
-
     line-height: 19.5px;
-
     color: rgb(170, 170, 170);
   }
 
