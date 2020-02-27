@@ -18,6 +18,7 @@ nav {
   width: 100%;
   top: 0;
   position: fixed;
+  /* z-index: 10; */
 }
 nav .first-nav a {
   color: beige;
@@ -38,6 +39,9 @@ nav .first-nav a:hover {
   font-size: 13px;
   font-weight: 500;
   line-height: 32px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
 }
 
 .left-top-nav {
@@ -57,6 +61,10 @@ nav .first-nav a:hover {
   grid-template-columns: 3fr 3fr 3%;
   background-color: #fefefe;
   padding: 10px 0 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
 }
 .second-nav-options {
   margin-left: 20px;
@@ -118,7 +126,10 @@ nav .first-nav a:hover {
 
   color: rgb(255, 68, 34);
   padding-top: 10px;
+  width: 100%;
   height: 35px;
+  position: fixed;
+  z-index: 10;
 }
 
 .yellow-bar a {
@@ -131,6 +142,7 @@ nav .first-nav a:hover {
   gap: 5px;
   padding-top: 2px;
   cursor: pointer;
+  margin: 0 0.5%;
 }
 
 main section .main-img-left {
@@ -151,12 +163,12 @@ main section .main-img-left {
 
 .banner img {
   position: relative;
-  bottom: 135px;
-  height: 100px;
+  bottom: 35px;
+  height: 150px;
   margin-left: 20px;
 }
 
-#main-img-left-large-text {
+.main-img-left-large-text {
   font-family: Avalon, sans-serif;
 
   font-size: 40px;
@@ -167,10 +179,14 @@ main section .main-img-left {
 
   color: rgb(255, 255, 255);
   position: relative;
-  top: 220px;
+  top: 270px;
 }
 
-#main-img-left-small-text {
+.main-img-left-lorem {
+  width: 100%;
+}
+
+.main-img-left-small-text {
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 
   font-size: 14px;
@@ -182,7 +198,9 @@ main section .main-img-left {
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: flex-end;
-  margin: 9px;
+  margin: 35px 10px auto 20px;
+  position: relative;
+
 }
 
 .main-img-left-credits {
@@ -270,7 +288,11 @@ main section .main-img-right-bottom {
   color: rgb(255, 255, 255);
   padding-left: 15px;
 position: relative;
+}
+
+.right-bottom-text,.top-right-text {
 top: 110px;
+
 }
 
 .main-img-right-credits {
@@ -963,10 +985,6 @@ footer {
     display: none;
   }
 
-  .main-images {
-    margin: 0 0.5% 0 0.5%;
-  }
-
   .main-img-right-large-text{
     Font-family: Avalon, sans-serif;
 
@@ -979,7 +997,7 @@ Line-height: 22px;
 color: white;
   }
 
-  #main-img-left-large-text{
+  /* #main-img-left-large-text{
     Font-family: Avalon, sans-serif;
 
 Font-size: 40px;
@@ -989,7 +1007,7 @@ Font-weight: 700;
 Line-height: 40px;
 
 color: rgb(255, 255, 255);
-  }
+  } */
 
   .main-img-left-credits{
     margin-top: 230px;
