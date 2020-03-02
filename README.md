@@ -30,7 +30,7 @@ https://friendly-babbage-bb5770.netlify.com/
 👤 **Krishna Prasad Acharya**
 
 - Github: [@krishnabot](https://github.com/Krishnabot)
-- Twitter: [@@etrnalblasphemy]https://twitter.com/etrnalblasphemy
+- Twitter: [@etrnalblasphemy]https://twitter.com/etrnalblasphemy
 - Linkedin: [Krishna Prasad Acharya]https://www.linkedin.com/in/krishna-prasad-acharya-3596bb130/
 
 👤 **Kotoku Kennedy**

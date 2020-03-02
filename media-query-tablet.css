@@ -12,21 +12,22 @@ header nav{
     display: grid;
     grid-template-columns: 1fr 6fr;
   }
-.md-logo{
- /* display: grid; 
-  grid-row-start: row1-start;
-  grid-row-end: last; 
-  width: 100%; */
-}
 
-.md-logo img {
+.ipad-nav img {
   background-color: orange;
   height: 80px;
-  width: 100%;
+}
+
+.tablet-first-second-nav{
+display: grid;
+grid-template-rows: 1fr 1fr;
+gap: 10px;
 }
 
   .first-nav {
     height: 35px;
+    margin-left: 0;
+    justify-content: space-evenly;
   }
 
   .first-nav-mid{
@@ -35,7 +36,6 @@ header nav{
 
   .left-top-nav a {
     display: flex;
-    justify-content: space-between;
   }
 
   .left-top-nav i {
@@ -46,20 +46,20 @@ header nav{
 
   .second-nav {
     display: flex;
+    margin-top: 35px;
+    margin-left: 0;
+    justify-content: space-evenly;
   }
 
   .second-nav a {
     display: flex;
-    padding-right: 15px;
+  
   }
-
-  .second-nav-icon a:last-child {
-    display: none;
+  
+  .second-nav a:last-child {
+  
+  margin-right: 100px;
   }
-
-  /* .tablet-first-second-nav{
-grid-template-columns: 1fr 1fr;
-  } */
 
 
   .yellow-bar {

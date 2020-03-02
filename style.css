@@ -16,6 +16,10 @@ body {
   display: none;
 }
 
+.ipad-nav {
+  display: none;
+}
+
  nav {
   width: 100%;
   top: 0;
@@ -112,6 +116,10 @@ nav .first-nav a:hover {
 
 .hamburger {
   display: none;
+}
+
+.container {
+  margin-top: 80px;
 }
 
 .yellow-bar {
