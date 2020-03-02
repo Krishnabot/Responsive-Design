@@ -21,7 +21,6 @@ body {
   top: 0;
   position: fixed;
 
-  /* z-index: 10; */
 }
 .md-logo {
   display: none;
@@ -47,7 +46,6 @@ nav .first-nav a:hover {
   font-weight: 500;
   line-height: 32px;
 
-  /* position: relative; */
   width: 100%;
   z-index: 10;
 }
@@ -100,10 +98,6 @@ nav .first-nav a:hover {
 .second-nav-icon {
   display: grid;
   justify-content: center;
-
-  /* border-left: 1px solid #ececec; */
-
-  /* line-height: 100px; */
   margin-right: 5px;
   color: dimgray;
 }
@@ -156,13 +150,9 @@ main section .main-img-left {
   background-size: cover;
   background-position: center;
   background-color: cadetblue;
-
-  /* float: left; */
   height: 408px;
   min-height: 100px;
   max-height: fit-content;
-
-  /* z-index: -2; */
 }
 
 .banner img {
@@ -567,8 +557,6 @@ main section .main-img-right-bottom {
   height: 250px;
   width: 100%;
   min-height: 100px;
-
-  /* max-height: fit-content; */
 }
 
 main section .dark-gradient {

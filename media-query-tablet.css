@@ -1,17 +1,28 @@
 @media only screen and (min-width: 421px) and (max-width: 770px) {
 header nav{
+    display: none;
+    
+  }
+
+  .mobile-nav{
+    display: none;
+  }
+
+  .ipad-nav{
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 6fr;
   }
 .md-logo{
-  display: block;
+ /* display: grid; 
+  grid-row-start: row1-start;
+  grid-row-end: last; 
+  width: 100%; */
 }
 
 .md-logo img {
-  height: 60px;
-  width: 90px;
   background-color: orange;
+  height: 80px;
+  width: 100%;
 }
 
   .first-nav {
@@ -45,6 +56,11 @@ header nav{
   .second-nav-icon a:last-child {
     display: none;
   }
+
+  /* .tablet-first-second-nav{
+grid-template-columns: 1fr 1fr;
+  } */
+
 
   .yellow-bar {
     height: 50px;
@@ -129,8 +145,6 @@ header nav{
   }
 
   .information-bottom {
-    /* display: flex;
-    justify-content: center; */
     display: none;
   }
 
