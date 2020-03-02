@@ -1,6 +1,25 @@
 @media only screen and (min-width: 421px) and (max-width: 770px) {
+header nav{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr;
+  }
+.md-logo{
+  display: block;
+}
+
+.md-logo img {
+  height: 60px;
+  width: 90px;
+  background-color: orange;
+}
+
   .first-nav {
     height: 35px;
+  }
+
+  .first-nav-mid{
+    display: none;
   }
 
   .left-top-nav a {

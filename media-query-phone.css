@@ -24,6 +24,10 @@
     background-color: #fdfdfd;
   }
 
+  .md-logo {
+    display: none;
+  }
+
   .latest-deals-card img {
     width: 100%;
     height: 150px;
