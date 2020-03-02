@@ -1,28 +1,27 @@
 @media only screen and (min-width: 421px) and (max-width: 770px) {
-header nav{
-    display: none;
-    
-  }
-
-  .mobile-nav{
+  header nav {
     display: none;
   }
 
-  .ipad-nav{
+  .mobile-nav {
+    display: none;
+  }
+
+  .ipad-nav {
     display: grid;
     grid-template-columns: 1fr 6fr;
   }
 
-.ipad-nav img {
-  background-color: orange;
-  height: 80px;
-}
+  .ipad-nav img {
+    background-color: orange;
+    height: 80px;
+  }
 
-.tablet-first-second-nav{
-display: grid;
-grid-template-rows: 1fr 1fr;
-gap: 10px;
-}
+  .tablet-first-second-nav {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
 
   .first-nav {
     height: 35px;
@@ -30,7 +29,7 @@ gap: 10px;
     justify-content: space-evenly;
   }
 
-  .first-nav-mid{
+  .first-nav-mid {
     display: none;
   }
 
@@ -53,14 +52,11 @@ gap: 10px;
 
   .second-nav a {
     display: flex;
-  
-  }
-  
-  .second-nav a:last-child {
-  
-  margin-right: 100px;
   }
 
+  .second-nav a:last-child {
+    margin-right: 100px;
+  }
 
   .yellow-bar {
     height: 50px;
@@ -70,7 +66,7 @@ gap: 10px;
   }
 
   .main-images {
-    margin-top: 125px;
+    margin-top: 115px;
   }
 
   .right-top-nav {
