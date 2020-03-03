@@ -1,0 +1,190 @@
+@media only screen and (min-width: 620px) and (max-width: 1023px) {
+  header nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .ipad-nav {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+  }
+
+  .ipad-nav img {
+    background-color: orange;
+    height: 80px;
+  }
+
+  .tablet-first-second-nav {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .first-nav {
+    height: 35px;
+    margin-left: 0;
+    justify-content: space-evenly;
+  }
+
+  .first-nav-mid {
+    display: none;
+  }
+
+  .left-top-nav a {
+    display: flex;
+  }
+
+  .left-top-nav i {
+    display: flex;
+    align-items: center;
+    padding: 0 5px 0 5px;
+  }
+
+  .second-nav {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 0;
+    justify-content: space-evenly;
+  }
+
+  .second-nav a {
+    display: flex;
+  }
+
+  .second-nav a:last-child {
+    margin-right: 100px;
+  }
+
+  .yellow-bar {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    top: 70px;
+  }
+
+  .main-images {
+    margin-top: 115px;
+  }
+
+  .right-top-nav {
+    display: none;
+  }
+
+  .main-img-left-large-text {
+    top: 150px;
+    margin-left: 2%;
+  }
+
+  .main-img-left-credits {
+    margin-top: 150px;
+    margin-left: 1%;
+  }
+
+  .main-img-right-large-text {
+    font-family: Avalon, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    color: white;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .latest-top {
+    margin: 20px 2% 0 2%;
+  }
+
+  .news-tablet {
+    margin: 0 2% 0 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .funding-nav {
+    display: block;
+  }
+
+  .funding-right {
+    display: block;
+    padding-left: 0;
+    margin-left: -10px;
+  }
+
+  .funding-right ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 0 0;
+  }
+
+  .funding-right ul li {
+    border: none;
+  }
+
+  .funding-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #no-show-funding-content {
+    display: none;
+  }
+
+  .company-name h3 {
+    margin-left: 40%;
+  }
+
+  .information-bottom {
+    display: none;
+  }
+
+  .news2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .latest-deals-down-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .latest-deal-lower-text {
+    padding-bottom: 10px;
+  }
+
+  .latest-deals-card {
+    margin-bottom: 25px;
+  }
+
+  .footer-icon {
+    padding-top: 30px;
+  }
+
+  .footer-li {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .footer-bottom p {
+    display: flex;
+    justify-content: center;
+    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    color: rgb(170, 170, 170);
+  }
+
+  .stack {
+    padding-left: 5px;
+    margin-top: 4px;
+  }
+}
